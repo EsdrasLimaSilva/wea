@@ -1,0 +1,54 @@
+#forecast-container {
+  width: 97%;
+  max-width: 700px;
+  height: 220px;
+  background-color: #0c0c13;
+  background-size: cover;
+  background-position: center bottom;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+
+  div {
+    background-color: rgb(222, 224, 238);
+    height: 100%;
+    width: 130px;
+    min-width: 130px;
+    margin: 0 5px;
+    padding: 2px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    h2 {
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    h4 {
+      width: 100%;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+
+      .icon {
+        margin-right: 5px;
+      }
+
+      .icon-cold {
+        color: rgb(50, 50, 148);
+      }
+
+      .icon-hot {
+        color: rgb(187, 23, 23);
+        margin-right: 10px;
+      }
+    }
+  }
+}

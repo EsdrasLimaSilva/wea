@@ -1,0 +1,12 @@
+#load-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  #spinner {
+    color: rgb(230, 187, 0);
+    font-size: 3.5rem;
+    animation: spin 5s infinite linear;
+  }
+}

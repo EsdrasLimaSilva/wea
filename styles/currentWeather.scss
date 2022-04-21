@@ -1,0 +1,61 @@
+#current-weather-container {
+  width: 97%;
+  max-width: 700px;
+  height: 200px;
+  background-image: url("../public/background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  margin: 80px auto 0 auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+  overflow: hidden;
+
+  div {
+    background-color: rgba(17, 15, 27, 0.527);
+    display: inline;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+      overflow: auto;
+    }
+
+    h3 {
+      text-align: left;
+      width: 130px;
+      font-size: 0.8rem;
+      margin: 5px 0;
+      font-family: Arial, Helvetica, sans-serif;
+
+      .icon {
+        margin-right: 10px;
+        font-size: 1.1rem;
+      }
+
+      .icon-humidity {
+        color: rgb(127, 127, 243);
+      }
+
+      .icon-max {
+        color: rgb(250, 93, 93);
+      }
+
+      .icon-min {
+        color: rgb(199, 199, 247);
+      }
+    }
+  }
+}

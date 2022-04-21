@@ -1,0 +1,15 @@
+#page-not-found-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  color: rgb(18, 18, 75);
+
+  h2 {
+    font-size: 1.2rem;
+    .icon {
+      margin: 0px 10px;
+    }
+  }
+}
